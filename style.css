@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#main {
+    width: 100%;
+    height: 100vh;
+    background-color: #C7C7C7;
+}
+
+.inputarjeq {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#spaninput {
+    width: 650px;
+    height: 60px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+#spaninput > input {
+    width: 450px;
+    height: 35px;
+    font-size: 22px;
+    padding-left: 5px;
+    outline: none;
+}
+
+#spaninput > button {
+    border: none;
+    background-color:  #C7C7C7;
+    padding-left: 10px;
+    outline: none;
+}
+
+#spaninput > button > i {
+    font-size: 28px;
+    color: black;
+}
+
+.span1 {
+    grid-area: vernagir;
+}
+
+.span2 {
+    grid-area: taretiv;
+}
+
+.span3 {
+    grid-area: erkir;
+}
+
+.span4 {
+    grid-area: lezuner;
+}
+
+.span5 {
+    grid-area: hexinak;
+}
+
+.span6 {
+    grid-area: jamanak;
+}
+
+.span7 {
+    grid-area: primera;
+}
+
+.span8 {
+    grid-area: janr;
+}
+
+.span9 {
+    grid-area: grox;
+}
+
+.span10 {
+    grid-area: artadrutyun;
+}
+
+.span11 {
+    grid-area: tnoren;
+}
+
+.divarajin {
+    display: grid;
+    grid-template-areas: 
+    'vernagir  taretiv erkir lezuner'
+    'hexinak hexinak jamanak janr'
+    'artadrutyun tnoren primera grox';
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 185px;
+    margin: 10px;
+}
+
+.divarajin > span {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 30px;
+}
